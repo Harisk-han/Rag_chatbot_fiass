@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-community
+langchain-google-genai
+sentence-transformers
+faiss-cpu
+transformers
+torch    # optional: required by sentence-transformers (CPU builds)
+pydantic
+python-multipart   # if you accept file uploads
